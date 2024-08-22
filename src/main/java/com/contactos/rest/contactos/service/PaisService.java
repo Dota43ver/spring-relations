@@ -22,7 +22,7 @@ public class PaisService implements PaisRepository{
     private PaisRepository paisRepository;
 
     @Override
-    public void deleteAllByIdInBatch(Iterable<Integer> ids) {
+    public void deleteAllByIdInBatch(Iterable<Long> ids) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'deleteAllByIdInBatch'");
     }
@@ -58,19 +58,19 @@ public class PaisService implements PaisRepository{
     }
 
     @Override
-    public Pais getById(Integer arg0) {
+    public Pais getById(Long arg0) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getById'");
     }
 
     @Override
-    public Pais getOne(Integer arg0) {
+    public Pais getOne(Long arg0) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getOne'");
     }
 
     @Override
-    public Pais getReferenceById(Integer id) {
+    public Pais getReferenceById(Long id) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getReferenceById'");
     }
@@ -93,7 +93,7 @@ public class PaisService implements PaisRepository{
     }
 
     @Override
-    public List<Pais> findAllById(Iterable<Integer> ids) {
+    public List<Pais> findAllById(Iterable<Long> ids) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'findAllById'");
     }
@@ -129,25 +129,25 @@ public class PaisService implements PaisRepository{
     }
 
     @Override
-    public void deleteAllById(Iterable<? extends Integer> ids) {
+    public void deleteAllById(Iterable<? extends Long> ids) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'deleteAllById'");
     }
 
     @Override
-    public void deleteById(Integer id) {
+    public void deleteById(Long id) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'deleteById'");
     }
 
     @Override
-    public boolean existsById(Integer id) {
+    public boolean existsById(Long id) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'existsById'");
     }
 
     @Override
-    public Optional<Pais> findById(Integer id) {
+    public Optional<Pais> findById(Long id) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'findById'");
     }

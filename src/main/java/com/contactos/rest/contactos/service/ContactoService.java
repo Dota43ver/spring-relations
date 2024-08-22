@@ -22,7 +22,7 @@ public class ContactoService  implements ContactoRepository{
     private ContactoRepository contactoRepository;
 
     @Override
-    public void deleteAllByIdInBatch(Iterable<Integer> ids) {
+    public void deleteAllByIdInBatch(Iterable<Long> ids) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'deleteAllByIdInBatch'");
     }
@@ -58,19 +58,19 @@ public class ContactoService  implements ContactoRepository{
     }
 
     @Override
-    public Contacto getById(Integer arg0) {
+    public Contacto getById(Long arg0) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getById'");
     }
 
     @Override
-    public Contacto getOne(Integer arg0) {
+    public Contacto getOne(Long arg0) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getOne'");
     }
 
     @Override
-    public Contacto getReferenceById(Integer id) {
+    public Contacto getReferenceById(Long id) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getReferenceById'");
     }
@@ -94,7 +94,7 @@ public class ContactoService  implements ContactoRepository{
     }
 
     @Override
-    public List<Contacto> findAllById(Iterable<Integer> ids) {
+    public List<Contacto> findAllById(Iterable<Long> ids) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'findAllById'");
     }
@@ -129,26 +129,26 @@ public class ContactoService  implements ContactoRepository{
     }
 
     @Override
-    public void deleteAllById(Iterable<? extends Integer> ids) {
+    public void deleteAllById(Iterable<? extends Long> ids) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'deleteAllById'");
     }
 
     @Override
-    public void deleteById(Integer id) {
+    public void deleteById(Long id) {
         
         contactoRepository.deleteById(id);
 
     }
 
     @Override
-    public boolean existsById(Integer id) {
+    public boolean existsById(Long id) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'existsById'");
     }
 
     @Override
-    public Optional<Contacto> findById(Integer id) {
+    public Optional<Contacto> findById(Long id) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'findById'");
     }
