@@ -17,7 +17,7 @@ public class Estado {
     private int id;
 
     @ManyToOne
-    @JoinColumn(name = "pais_id")
+    @JoinColumn(name = "id_pais")
     private Pais pais;
     private String nombre;
 
