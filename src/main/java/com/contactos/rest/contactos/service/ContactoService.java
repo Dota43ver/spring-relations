@@ -143,14 +143,12 @@ public class ContactoService  implements ContactoRepository{
 
     @Override
     public boolean existsById(Long id) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'existsById'");
+        return contactoRepository.existsById(id);
     }
 
     @Override
     public Optional<Contacto> findById(Long id) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'findById'");
+        return contactoRepository.findById(id);
     }
 
     @Override
@@ -200,5 +198,7 @@ public class ContactoService  implements ContactoRepository{
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'findOne'");
     }
+
+    
 
 }
