@@ -13,7 +13,7 @@ import com.contactos.rest.contactos.model.Pais;
 import com.contactos.rest.contactos.service.PaisService;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:4200", "https://landing-angular-five.vercel.app/"})
+@CrossOrigin(origins = {"http://localhost:4200", "https://angular-contactos.vercel.app"})
 @RequestMapping("/pais/")
 public class PaisREST {
 

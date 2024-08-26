@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:4200", "https://landing-angular-five.vercel.app/"})
+@CrossOrigin(origins = {"http://localhost:4200", "https://angular-contactos.vercel.app"})
 @RequestMapping("/contactos/")
 public class ContactoREST {
 

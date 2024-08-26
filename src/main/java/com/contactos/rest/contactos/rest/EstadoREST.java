@@ -14,7 +14,7 @@ import com.contactos.rest.contactos.model.Estado;
 import com.contactos.rest.contactos.service.EstadoService;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:4200", "https://landing-angular-five.vercel.app/"})
+@CrossOrigin(origins = {"http://localhost:4200", "https://angular-contactos.vercel.app"})
 @RequestMapping ("/estados/")
 public class EstadoREST {
 	
